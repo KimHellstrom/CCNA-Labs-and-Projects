@@ -14,5 +14,9 @@ The network simulates established basic password configuration on both the switc
 ## Verification Notes & Observations
 * Verified chosen passwords with the CLI commands:
   >show running-config (passwords are configured)
-  >
+  
   >show startup-config (configurations are saved)
+
+
+  ### extra:
+  assigned static ip addresses to each end device and the router.
