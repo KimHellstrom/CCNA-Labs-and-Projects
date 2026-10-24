@@ -1,4 +1,4 @@
-# Lab 03: Basic Device Security
+# Lab 04: Basic Device Security
 
 * **Source Material**: Jeremy's IT Lab (CCNA Day 4)
 * **Objective**: Identify and connect interfaces with the correct media. Plus trying to set up the network to ping two end devices from seperate networks.
