@@ -1,0 +1,25 @@
+# Lab 15: VLSM
+
+* **Source Material**: Jeremy's IT Lab (CCNA Day15)
+* **Objective**: Configure each interface of routers and PCs of each LAN by calculating each subnet range.
+
+## Topology Overview
+
+A fully functioning subnet system network of 4 LANs and a point-to-point network connecting each routers.
+
+### Subnet findings:
+* **selecting IPv4 addresses**: based on hosts needed/subnet to find the Cider notation to find the range of IPv4 addresses in each subnet.
+* **calculating hosts**: 2^"number of host bits minus broadcast and network IPv4 addresses" (2^n - 2)
+* **calculating networks**: 2^"number of borrowed network bits" (2^x)
+
+## Verification Notes & Observations
+  - using the subnetmask, we can define the size of the subnet.
+  - the CLI will warn if the subnetmask and IPv4 IP address doesn't match.
+  - >write memory: saves the configuration which can be viewed in exec mode using the show startup-configure command.
+
+* Verified solution:
+  >ping IP-address: Confirming if there is a properly configured network connection between two devices
+
+  ### extra:
+  It is crucial that when working with more than one router, that we also have a working hop-to-hop 
+  or the router won't know where to send the package outside its local area and will isntead drop the package.
